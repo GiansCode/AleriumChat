@@ -1,0 +1,28 @@
+########################
+# Chat Format Settings #
+########################
+Chat-Formats:
+  "default":
+    priority: 1
+    chat-color: '&f'
+    prefix:
+      content: '%vault_prefix%'
+      tooltip:
+        - '%player_name%s Info'
+        - ' '
+        - 'Money: %vault_eco_balance%'
+      click-actions:
+        - '[SUGGESTCOMMAND] /msg %player_name%'
+        - '[PLAYERCOMMAND] openshop %viewer_player_name%'
+    name:
+      content: '&b%essentials_nickname%'
+      tooltip:
+        - '%player_name%s Info'
+        - ' '
+        - 'Money: %vault_eco_balance%'
+      click-actions:
+        - '[OPENURL] https://google.com'
+    suffix:
+      content: ''
+      tooltip: [ ]
+      click-actions: [ ]

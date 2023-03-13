@@ -1,0 +1,7 @@
+name: AleriumChat
+version: '${project.version}'
+main: io.alerium.aleriumchat.AleriumChat
+api-version: 1.19
+depend: [ JustAPI, PlaceholderAPI, Vault ]
+authors: [ Justugh ]
+description: Cross-server communication plugin.

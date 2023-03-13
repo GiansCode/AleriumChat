@@ -1,0 +1,47 @@
+#########################
+# Message Configuration #
+#########################
+Messages:
+  General:
+    Chat-Disabled: "&cChat is disabled, you cannot speak!"
+    Chat-Toggled-Off: "&c%player% has disabled chat."
+    Chat-Toggled-On: "&a%player% has enabled chat."
+    Messages-Disabled: "&c%player% has private messages disabled."
+    Ignored: "&c%player% has you ignored."
+    Cant-Message-Ignored: "&cYou cannot message %player%, you have them ignored."
+    Invalid-Data: "&cYour data is invalid, try relogging, if persistent contact an admin."
+  Simple-Chat:
+    Help:
+      - "&aSimple-Chat Commands:"
+      - "&a/simplechat help &8- &eDisplay this message."
+      - "&a/simplechat list &8- &eView all chat formats."
+      - "&a/simplechat test <format> <message> &8- &eTest a format."
+      - "&a/simplechat reload &8- &eReload the plugin, including formats & messages."
+    List:
+      Line-Format: "&a%id% &8(&e%index%&8) &8- %format%"
+    Test:
+      Invalid-Format: "&cThat isn't a valid format."
+    Reload:
+      Successfully-Reloaded: "&aYou have successfully reloaded."
+  Message:
+    Syntax: "&aUsage: /msg <player> <message>"
+    Not-Online: "&c%target% isn't online!"
+  Reply:
+    Syntax: "&aUsage: /reply <message>"
+    No-One-Messaged: "&cYou haven't messaged anyone!"
+    Not-Online: "&c%target% isn't online anymore!"
+  Toggle-Chat:
+    Enabled: "&aYou have enabled chat!"
+    Enabled-Broadcast: "&a%player% has enabled chat!"
+    Disabled: "&cYou have disabled chat."
+    Disabled-Broadcast: "&c%player% has disabled chat."
+  Toggle-Private-Messages:
+    Enabled: "&aYou have enabled private messages."
+    Disabled: "&cYou have disabled private messages."
+  Ignore:
+    Usage: "&aUsage: /ignore <player>"
+    Removed: "&a%player% is no longer being ignored."
+    Added: "&a%player% is now being ignored."
+  Social-Spy:
+    Enabled: "&aYou have enabled social spy."
+    Disabled: "&cYou have disabled social spy."

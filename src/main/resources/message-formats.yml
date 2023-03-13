@@ -1,0 +1,20 @@
+#############################
+# Messaging Format Settings #
+#############################
+Sender-Formats:
+  Default:
+    priority: 1
+    format: "&fyou -> %recipient_player_name%: %message%"
+    tooltip:
+      - "&fYou sent a PM to %recipient_player_name%"
+    click-actions:
+      - "[SUGGESTCOMMAND] /r"
+
+Receiver-Formats:
+  Default:
+    priority: 1
+    format: "&f%player_name% -> you: %message%"
+    tooltip:
+      - "&fYou received a PM from %player_name%"
+    click-actions:
+      - "[SUGGESTCOMMAND] /msg %player_name% "

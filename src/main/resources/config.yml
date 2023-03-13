@@ -1,0 +1,28 @@
+#########################
+# General Configuration #
+#########################
+Enable-Cross-Server-Chat: true
+Inject-Prefix-Chat: true # Uses name from JustAPI config.
+Use-Whitelist-As-Blacklist: false
+
+Whitelisted-Servers:
+  - "lobby"
+  - "survival"
+
+########################
+# Hikari Configuration #
+########################
+Hikari-Details:
+  Address: "localhost"
+  Port: "3306"
+  Database: "test"
+  Username: "test"
+  Password: "password"
+
+#######################
+# Social Spy Settings #
+#######################
+Social-Spy:
+  Enabled: true
+  On-By-Default: true
+  Format: "&8[SPY] &f%player_name% &e-> &f%recipient_player_name%: %message%"
